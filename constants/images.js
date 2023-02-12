@@ -28,6 +28,7 @@ const sarawak_laksa = require("../assets/images/sarawak-laksa.jpg");
 const sushi = require("../assets/images/sushi.jpg");
 const teh_c_peng = require("../assets/images/teh-c-peng.jpg");
 const tomato_pasta = require("../assets/images/tomato-pasta.jpg");
+const grocery = require("../assets/images/grocery.jpg");
 
 export default {
     avatar_1,
@@ -40,6 +41,9 @@ export default {
     burger_restaurant_2,
     chicago_hot_dog,
     crispy_chicken_burger,
+
+    grocery,
+    cart,
 
     fries_restaurant,
     hawaiian_pizza,

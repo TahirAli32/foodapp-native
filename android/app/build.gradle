@@ -153,16 +153,6 @@ android {
 dependencies {
 
 
-  // start add this
-  implementation(project(':react-native-maps')){
-      exclude group: 'com.google.android.gms', module: 'play-services-base'
-      exclude group: 'com.google.android.gms', module: 'play-services-maps'
-  }
-  implementation 'com.google.android.gms:play-services-base:17.5.0'
-  implementation 'com.google.android.gms:play-services-maps:17.0.0'
-  // end add this
-
-
   // The version of react-native is set by the React Native Gradle Plugin
   implementation("com.facebook.react:react-android")
 

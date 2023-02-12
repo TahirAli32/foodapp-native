@@ -1,8 +1,19 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
 import { NavigationContainer } from '@react-navigation/native'
-import Tabs from './navigation/tab'
-import { Home, Restaurant, OrderDelivery } from './screens'
+import userTab from './navigation/userTab'
+import {
+  Home,
+  AddProduct,
+  AdminAllOrders,
+  AdminAllProducts,
+  AdminSetting,
+  Cart,
+  Login,
+  Signup,
+  Splash,
+  UserSetting
+} from './screens'
 
 const Stack = createStackNavigator()
 
@@ -13,11 +24,10 @@ function App() {
         screenOptions={{
           headerShown: false
         }}
-        initialRouteName={'Home'}
+        initialRouteName={'Splash'}
       >
-        <Stack.Screen name='Home' component={Tabs} />
-        <Stack.Screen name='Restaurant' component={Restaurant} />
-        <Stack.Screen name='OrderDelivery' component={OrderDelivery} />
+        <Stack.Screen name='UserTab' component={userTab} />
+        {/* <Stack.Screen name='UserTab' component={userTab} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   )

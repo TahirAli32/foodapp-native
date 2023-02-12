@@ -1,9 +1,23 @@
+import AddProduct from "./AddProduct"
+import AdminAllOrders from "./AdminAllOrders"
+import AdminAllProducts from "./AdminAllProducts"
+import AdminSetting from "./AdminSetting"
+import Cart from "./Cart"
 import Home from "./Home"
-import Restaurant from "./Restaurant"
-import OrderDelivery from "./OrderDelivery"
+import Login from "./Login"
+import Signup from "./Signup"
+import Splash from "./Splash"
+import UserSetting from "./UserSetting"
 
 export {
   Home,
-  Restaurant,
-  OrderDelivery
+  AddProduct,
+  AdminAllOrders,
+  AdminAllProducts,
+  AdminSetting,
+  Cart,
+  Login,
+  Signup,
+  Splash,
+  UserSetting
 }
