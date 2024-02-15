@@ -29,6 +29,7 @@ const sushi = require("../assets/images/sushi.jpg");
 const teh_c_peng = require("../assets/images/teh-c-peng.jpg");
 const tomato_pasta = require("../assets/images/tomato-pasta.jpg");
 const grocery = require("../assets/images/grocery.jpg");
+const logo = require("../assets/images/logo.png");
 
 export default {
     avatar_1,
@@ -43,7 +44,7 @@ export default {
     crispy_chicken_burger,
 
     grocery,
-    cart,
+    logo,
 
     fries_restaurant,
     hawaiian_pizza,

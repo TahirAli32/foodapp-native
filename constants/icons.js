@@ -23,35 +23,35 @@ export const basket = require("../assets/icons/shopping-basket.png");
 export const star = require("../assets/icons/star.png");
 export const sushi = require("../assets/icons/sushi.png");
 export const user = require("../assets/icons/user.png");
-export const cartIcon = require("../assets/icons/cart-icon.jpg");
-export const homeIcon = require("../assets/icons/home-icon.png");
+export const home_icon = require("../assets/icons/homeIcon.png");
+export const plus_icon = require("../assets/icons/plusIcon.png");
 
 export default {
-    back,
-    car,
-    cutlery,
-    donut,
-    drink,
-    fire,
-    fries,
-    hamburger,
-    hotdog,
-    like,
-    list,
-    location,
-    master_card,
-    nearby,
-    noodle,
-    pin,
-    pizza,
-    red_pin,
-    rice_bowl,
-    salad,
-    search,
-    basket,
-    star,
-    sushi,
-    user,
-    cartIcon,
-    homeIcon
+  back,
+  car,
+  cutlery,
+  donut,
+  drink,
+  fire,
+  fries,
+  hamburger,
+  hotdog,
+  like,
+  list,
+  location,
+  master_card,
+  nearby,
+  noodle,
+  pin,
+  pizza,
+  red_pin,
+  rice_bowl,
+  salad,
+  search,
+  basket,
+  star,
+  sushi,
+  user,
+  home_icon,
+  plus_icon
 }
